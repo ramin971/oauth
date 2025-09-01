@@ -1,0 +1,5 @@
+if migration don't work : 
+bash:
+find . -name "__pycache__" -exec rm -r {} +
+python manage.py makemigrations
+python manage.py migrate
